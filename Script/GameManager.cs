@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour 
 {
@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
         get { return died; }
         set { died = value; }
     }
+ 
     public void LifeLost()
     {
         //lose life 
